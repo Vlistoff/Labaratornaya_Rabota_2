@@ -1,0 +1,10 @@
+ul.prepod{
+    font-family: 'Arial';
+    font-size: 20px;
+}
+li.Element_list +  li.Element_list{
+    margin-top: 10px;
+}
+dd + dt.Element_list{
+    margin-top: 10px;
+}

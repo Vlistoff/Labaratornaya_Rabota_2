@@ -1,0 +1,9 @@
+input.Button{
+    background-color: gray;
+}
+textarea.Text{
+    font-size: 24px;
+}
+input.variant:checked + span{
+    background: rgb(0, 0, 0);
+}
