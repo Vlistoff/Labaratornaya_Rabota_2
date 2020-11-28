@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+td, tr{
+    background: rgb(113, 168, 240);
+    border: 1px solid white
+}
+tbody{
+    padding-left: 6px;
+}
