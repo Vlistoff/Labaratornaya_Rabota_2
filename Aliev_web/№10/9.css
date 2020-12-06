@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body > div{
+    width: 320px;
+    height: 320px;
+    display: flex;
+}
+.red{
+    width: 80px;
+    height: 80px;
+    border: red 1px solid;
+    margin: 20px;
+}
+.blue{
+    width: 80px;
+    height: 80px;
+    border: blue 1px solid;
+    margin: 20px;
+    margin-left: 0;
+    align-self: center;
+}
+.green{
+    width: 80px;
+    height: 80px;
+    border: green 1px solid;
+    margin: 20px;
+    margin-left: 0;
+    align-self: flex-end;
+}

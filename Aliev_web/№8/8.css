@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+td, th {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+thead {
+    font-weight: bold;
+}
+
+thead > tr > th,tbody > tr > td:first-child {
+    background: #a5cde6;
+    color: white;
+}
+
+td:first-child, th:first-child {
+    width: 180px;
+    padding-left: 15px;
+}
+
+td:not(:first-child), th:not(:first-child) {
+    width: 90px;
+    text-align: center;
+}
+
+tbody > tr > td:not(:first-child) {
+    color: rgba(0, 0, 0, .6);
+    background: #cce2f0;
+}
+thead > tr > th:first-child {
+    text-align: start;
+}

@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+div.down{
+    width: 220px;
+    height: 220px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+div.up{ 
+    width: 220px;
+    height: 220px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    top: -220px;
+}
+.red{
+    width: 80px;
+    height: 80px;
+    background: red;
+    margin: 20px;
+}
+.green{
+    width: 80px;
+    height: 80px;
+    background: green;
+    margin: 20px;
+    margin-left: 0;
+    align-self: flex-end;
+}
+.blue{
+    width: 80px;
+    height: 80px;
+    background: blue;
+    margin: 70px;
+}
