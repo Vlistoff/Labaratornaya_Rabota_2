@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body > div{
+    display: flex;
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 15px;
+    flex-direction: column;
+}
+div.head_news + div.news{
+    padding-top: 15px;
+}
+div.head_news > a{
+    font-size: xx-large;
+}
+.read_next{
+    align-self: flex-end;
+}
