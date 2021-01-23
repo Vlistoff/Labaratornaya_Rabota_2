@@ -4,11 +4,6 @@
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-body > div{
-    font-size: 150px;
-    color:rgb(139, 139, 139);
-}
 body{
     background-color: rgb(44, 44, 44);
 }
